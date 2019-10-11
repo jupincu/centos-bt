@@ -1,4 +1,4 @@
-FROM  jupincu/centos-bt:v2.0.6.9
+FROM  jupincu/centos-bt:v1.0.6.9
 MAINTAINER Nopost (nopost@qq.com)
 # ENV TZ=Asia/Shanghai
 # RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
