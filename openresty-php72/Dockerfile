@@ -3,7 +3,7 @@ MAINTAINER Nopost (nopost@qq.com)
 # ENV TZ=Asia/Shanghai
 # RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-COPY openresty-php72\container-files /
+COPY openresty-php72/container-files /
 
 RUN cd /install && sh ./docker_build.sh
 
